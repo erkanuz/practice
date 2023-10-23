@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css"/>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="burger"><i class="ph ph-dots-three-outline"></i></div>
+        <div class="nav_left">
+            <div><i class="ph ph-user-circle" id="login-button"></i></div>
+            <div><i class="ph ph-star"></i><span>7</span></div>
+        </div>
+        <div class="nav_center">
+            <ul>
+                <li><a href="#" class="nav_link active-link">HOME</a></li>
+                <li>
+                    <a href="">
+                        <span>PRODUCTS</span>
+                        <i class="ph ph-caret-down"></i>
+                    </a>
+                </li>
+                <li><a href="#" class="nav_link">DISC</a></li>
+                <li>Qeshop</li>
+                <li>
+                    <a href="">
+                        <span>SPECIALS</span>
+                        <i class="ph ph-caret-down"></i>
+                    </a>
+                    <ul class="sub-menu list-block">
+                        <li><a href="">Chanel</a></li>
+                        <li><a href="">Gucci</a></li>
+                        <li><a href="">Fendi</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="nav_link">SALE</a></li>
+            </ul>
+        </div>
+        <div class="nav_right">
+            <div class="wrapper rel">
+                <button class="icon"><i class="ph ph-magnifying-glass"></i></button>
+                <input type="text" placeholder="search..." class="input">
+                <p class="input-highlight"></p>
+            </div>
+            <div><i class="ph ph-bag"></i><span>3</span></div>
+            <div><i class="ph ph-sun-dim change-theme" id="theme-button"></i></div>
+        </div>
+    </div>
+    <!-- Mobile navbar -->
+    <div id="mobile-menu" class="mobile-menu">
+        <div class="wrap">
+            <div class="close-trigger"><i class="ph ph-x"></i></div>
+            <div class="main-menu">
+                <ul>
+                    <li><a href=""><span>Home</span></a></li>
+                    <li class="has-child">
+                        <div class="space">
+                            <span>Products</span>
+                            <span><i class="ph ph-caret-down"></i></span>
+                        </div>
+                        <ul class="down">
+                            <li>Gucci</li>
+                            <li>Chanel</li>
+                            <li>Zara</li>
+                            <li>Fendi</li>
+                            <li>Nike</li>
+                            <li>Prada</li>
+                            <li>Dolce & Gabbana</li>
+                        </ul>
+                    </li>
+                    <li><a href=""><span>Discount</span></a></li>
+                    <li class="has-child">
+                        <div class="space">
+                            <span>Specials</span>
+                            <span><i class="ph ph-caret-down"></i></span>
+                        </div>
+                        <ul class="down">
+                            <li>Gucci</li>
+                            <li>Chanel</li>
+                            <li>Prada</li>
+                            <li>Dolce & Gabbana</li>
+                        </ul>
+                    </li>
+                    <li><a href=""><span>Sale</span></a></li>
+                </ul>
+            </div>
+            <div class="button">
+                <a href="">Login</a>
+                <a href="">Register</a>
+            </div>
+        </div>
+    </div>
+    <!-- Header -->
+    <header class="header">
+        <div class="parallax">
+            <img src="https://images.pexels.com/photos/949670/pexels-photo-949670.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=""
+            class="image">
+        </div>
+        <div class="text">
+            <p>New brand collection</p>
+            <h1>awesome designs</h1>
+        </div>
+        <button class="header_button">shop what's new</button>
+    </header>
+    <!-- Login -->
+    <div class="login grid" id="login-content">
+        <form action="" class="login_form grid">
+            <h3 class="login_title">Login In</h3>
+
+            <div class="login_group grid">
+
+                <div class="input-container">
+                    <input required id="input" type="text">
+                    <label class="label" for="input">Write your email</label>
+                    <div class="underline"></div>
+                    <div class="sideline"></div>
+                    <div class="upperline"></div>
+                    <div class="line"></div>
+                </div>
+
+                <div class="input-container">
+                    <input required id="input" type="text">
+                    <label class="label" for="input">Enter your password</label>
+                    <div class="underline"></div>
+                    <div class="sideline"></div>
+                    <div class="upperline"></div>
+                    <div class="line"></div>
+                </div>
+
+            </div>
+
+            <div>
+                <span class="login_signup">You do not have an account ? <a href="#">Sign up</a></span>
+                <a href="#" class="login_forgot">You forgot your password</a>
+                <button class="login_button">Log In</button>
+            </div>
+        </form>
+
+        <i class="ph ph-x login_close" id="login_close"></i>
+    </div>
+
+    <!-- About -->
+    <section class="about">
+        <div class="back">
+
+        </div>
+    </section>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>
